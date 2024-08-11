@@ -15,7 +15,7 @@ if (!urlArg) {
 
 const BASE_URL = `https://${urlArg.split('=')[1].replace(/(^\w+:|^)\/\//, '')}`;
 const VISITED_URLS = new Set();
-const IGNORED_PATTERNS = ['cdn-cgi', '?referrer=', '&referrer=', '/signin/v2/usernamerecovery', '/lifecycle/flows/signup'];
+const IGNORED_PATTERNS = ['cdn-cgi', '?referrer=', '&referrer=', '/signin/v2/usernamerecovery', '/lifecycle/flows/signup', 'join?return_to='];
 const BASE_DELAY = 7000;
 
 const shouldIncludeUrl = (url, baseUrl) => !IGNORED_PATTERNS.some(pattern => url.includes(pattern)) && url.startsWith(baseUrl);
