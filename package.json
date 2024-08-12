@@ -30,7 +30,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
-    "globals": "^15.9.0",
-    "jest": "^29.7.0"
+    "globals": "^15.9.0"
   }
 }
