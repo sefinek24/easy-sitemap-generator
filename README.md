@@ -1,4 +1,4 @@
-# Easy Sitemap.xml generator without any limits
+# 🗺️ Easy Sitemap.xml generator without any limits
 Finally, a free and easy `sitemap.xml` file generator without any restrictions for your website. Improve your search engine rankings!
 All you need is Node.js installed and this repository cloned.
 
