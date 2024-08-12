@@ -13,11 +13,12 @@
   "license": "MIT",
   "author": "Sefinek <contact@nekosia.cat> (https://sefinek.net)",
   "main": "index.js",
+  "typings": "index.d.ts",
   "bin": {
+    "generate-sitemap": "./bin/cli.js",
     "sitemap": "./bin/cli.js",
     "sitemap-gen": "./bin/cli.js",
-    "sitemap-generator": "./bin/cli.js",
-    "generate-sitemap": "./bin/cli.js"
+    "sitemap-generator": "./bin/cli.js"
   },
   "scripts": {
     "test": "jest test/index.test.js",
