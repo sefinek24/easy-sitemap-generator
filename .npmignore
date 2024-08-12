@@ -2,5 +2,4 @@
 .github
 examples
 eslint.config.mjs
-.gitignore
 sitemap.xml
