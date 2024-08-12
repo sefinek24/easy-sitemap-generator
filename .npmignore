@@ -1,4 +1,5 @@
 .idea
+.github
 examples
 eslint.config.mjs
 .gitignore
