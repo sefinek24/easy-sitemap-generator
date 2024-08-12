@@ -2,7 +2,6 @@
 Finally! A free and easy-to-use `sitemap.xml` generator with no restrictions for your website.
 Improve your search engine rankings effortlessly! All you need is Node.js installed and this module. Good luck!
 
-
 ## 🤔 How to use it?
 ### CLI (recommenced)
 ```bash
@@ -23,10 +22,12 @@ const sitemap = require('easy-sitemap-generator');
 })();
 ```
 
-
 ## 👀 Why do I need this?
 Indexing bots, such as Google, often check the sitemap.xml file by making a `GET /sitemap.xml` request to find subpages of your website.
 This can improve your site’s visibility in search engine results. Sitemap files are a standard feature and can be found on every web server.
+
+## 😉 Important
+Before running the script or executing the `sitemap` CLI command, make sure you have a stable internet connection. Also, disconnect from any proxy or VPN if you're connected.
 
 ## 📘 License
 Licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
