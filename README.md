@@ -22,6 +22,9 @@ const sitemap = require('easy-sitemap-generator');
 })();
 ```
 
+## ✔️ Sample generated file
+https://sefinek.net/sitemap.xml
+
 ## 👀 Why do I need this?
 Indexing bots, such as Google, often check the sitemap.xml file by making a `GET /sitemap.xml` request to find subpages of your website.
 This can improve your site’s visibility in search engine results. Sitemap files are a standard feature and can be found on every web server.
