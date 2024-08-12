@@ -2,6 +2,14 @@
 Finally! A free and easy-to-use `sitemap.xml` generator with no restrictions for your website.
 Improve your search engine rankings effortlessly! All you need is Node.js installed and this module. Good luck!
 
+<a href="https://www.npmjs.com/package/easy-sitemap-generator" target="_blank" title="easy-sitemap-generator - npm" style="text-decoration:none">
+    <img src="https://img.shields.io/npm/dt/easy-sitemap-generator.svg?maxAge=3600" alt="The number of downloads">
+    <img src="https://img.shields.io/github/issues/sefinek24/easy-sitemap-generator" alt="Issues">
+    <img src="https://img.shields.io/github/last-commit/sefinek24/easy-sitemap-generator" alt="Last commit">
+    <img src="https://img.shields.io/github/commit-activity/w/sefinek24/easy-sitemap-generator" alt="Commit activity">
+    <img src="https://img.shields.io/github/languages/code-size/sefinek24/easy-sitemap-generator" alt="Code size">
+</a>
+
 ## 🤔 How to use it?
 ### CLI (recommenced)
 ```bash
