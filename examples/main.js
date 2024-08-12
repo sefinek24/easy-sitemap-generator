@@ -1,5 +1,6 @@
-const sitemapGenerator = require('../lib/sitemapGenerator.js');
+const sitemap = require('../lib/sitemapGenerator.js');
 
 (async () => {
-	await sitemapGenerator.generate('https://example.com');
+	const content = await sitemap.generate('https://example.com');
+	console.log(content);
 })();
