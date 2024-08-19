@@ -21,7 +21,7 @@
     "sitemap-generator": "./bin/cli.js"
   },
   "scripts": {
-    "test": "jest test/index.test.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "dependencies": {
