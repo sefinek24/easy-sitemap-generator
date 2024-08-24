@@ -1,7 +1,7 @@
 {
   "name": "easy-sitemap-generator",
-  "version": "0.1.2",
-  "description": "Free and easy sitemap.xml file generator without any restrictions for your website. Try now!",
+  "version": "0.1.3",
+  "description": "Easy and free sitemap.xml file generator without any restrictions for your website.",
   "homepage": "https://github.com/sefinek24/easy-sitemap-generator#readme",
   "bugs": {
     "url": "https://github.com/sefinek24/easy-sitemap-generator/issues"
