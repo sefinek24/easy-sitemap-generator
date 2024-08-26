@@ -17,9 +17,9 @@ const calculatePriority = (url, baseUrl) => {
 	const hasQuery = url.includes('?');
 
 	if (depth === 0) return 1.0;
-	if (depth === 1) return 0.81;
-	if (depth === 2) return hasQuery ? 0.51 : 0.71;
-	if (depth >= 3) return hasQuery ? 0.31 : 0.41;
+	if (depth === 1) return 0.85;
+	if (depth === 2) return hasQuery ? 0.54 : 0.74;
+	if (depth >= 3) return hasQuery ? 0.34 : 0.44;
 
 	return 0.5;
 };
